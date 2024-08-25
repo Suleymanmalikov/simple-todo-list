@@ -12,7 +12,7 @@ function HomePage() {
   const [task, setTask] = useState("");
   const [isEditing, setIsEditing] = useState(null);
   const [editText, setEditText] = useState("");
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const todos = useSelector((state) => state.todos.todos);
   const dispatch = useDispatch();
   const inputRef = useRef(null);
